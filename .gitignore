@@ -2,3 +2,4 @@ venv/
 app/venv/
 __pycache__/
 *.pyc
+*:Zone.Identifier
