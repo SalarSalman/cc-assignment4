@@ -1,0 +1,4 @@
+waiting for mongo-0.mongo
+{
+  ok: 1
+}

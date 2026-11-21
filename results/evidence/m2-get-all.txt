@@ -1,0 +1,36 @@
+NAME                           READY   STATUS      RESTARTS      AGE     IP             NODE       NOMINATED NODE   READINESS GATES
+pod/emi-web-586778c4cb-5p9hk   1/1     Running     0             11m     10.244.0.196   minikube   <none>           <none>
+pod/emi-web-586778c4cb-68466   1/1     Running     0             11m     10.244.0.195   minikube   <none>           <none>
+pod/emi-web-586778c4cb-rdl7n   1/1     Running     1 (26m ago)   4h50m   10.244.0.191   minikube   <none>           <none>
+pod/mongo-0                    1/1     Running     3 (26m ago)   27h     10.244.0.190   minikube   <none>           <none>
+pod/mongo-1                    1/1     Running     3 (26m ago)   28h     10.244.0.188   minikube   <none>           <none>
+pod/mongo-2                    1/1     Running     3 (26m ago)   28h     10.244.0.194   minikube   <none>           <none>
+pod/mongo-init-g6qmk           0/1     Completed   0             28h     <none>         minikube   <none>           <none>
+
+NAME              TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)     AGE   SELECTOR
+service/emi-web   ClusterIP   10.97.94.90   <none>        80/TCP      28h   app=emi-web
+service/mongo     ClusterIP   None          <none>        27017/TCP   28h   app=mongo
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES        SELECTOR
+deployment.apps/emi-web   3/3     3            3           28h   emi-web      emi-web:1.0   app=emi-web
+
+NAME                                 DESIRED   CURRENT   READY   AGE   CONTAINERS   IMAGES        SELECTOR
+replicaset.apps/emi-web-5464d78b5f   0         0         0       27h   emi-web      emi-web:1.1   app=emi-web,pod-template-hash=5464d78b5f
+replicaset.apps/emi-web-586778c4cb   3         3         3       12h   emi-web      emi-web:1.0   app=emi-web,pod-template-hash=586778c4cb
+replicaset.apps/emi-web-5fb875dbdc   0         0         0       12h   emi-web      emi-web:1.1   app=emi-web,pod-template-hash=5fb875dbdc
+replicaset.apps/emi-web-78dd796868   0         0         0       28h   emi-web      emi-web:1.0   app=emi-web,pod-template-hash=78dd796868
+
+NAME                     READY   AGE   CONTAINERS   IMAGES
+statefulset.apps/mongo   3/3     28h   mongo        mongo:7.0
+
+NAME                   STATUS     COMPLETIONS   DURATION   AGE   CONTAINERS   IMAGES      SELECTOR
+job.batch/mongo-init   Complete   1/1           16s        28h   init         mongo:7.0   batch.kubernetes.io/controller-uid=2aea8f74-449e-4266-b6d2-c0f82826d261
+
+NAME                                 STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE   VOLUMEMODE
+persistentvolumeclaim/data-mongo-0   Bound    pvc-9ef9a8a9-e094-4424-8986-46bb835cf9e3   1Gi        RWO            standard       <unset>                 28h   Filesystem
+persistentvolumeclaim/data-mongo-1   Bound    pvc-316bd74f-eda4-4bcf-9c80-56918080ed0b   1Gi        RWO            standard       <unset>                 28h   Filesystem
+persistentvolumeclaim/data-mongo-2   Bound    pvc-b10413a7-8a12-4743-b078-7296baac5043   1Gi        RWO            standard       <unset>                 28h   Filesystem
+
+NAME                         DATA   AGE
+configmap/emi-config         1      28h
+configmap/kube-root-ca.crt   1      28h

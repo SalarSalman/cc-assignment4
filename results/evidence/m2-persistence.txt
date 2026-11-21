@@ -1,0 +1,22 @@
+=== BEFORE ===
+Sat Nov 21 22:02:14 PKT 2026
+NAME      READY   STATUS    RESTARTS      AGE
+mongo-1   1/1     Running   3 (31m ago)   28h
+NAME           STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+data-mongo-1   Bound    pvc-316bd74f-eda4-4bcf-9c80-56918080ed0b   1Gi        RWO            standard       <unset>                 28h
+documents: 104418
+=== DELETE mongo-1 ===
+pod "mongo-1" deleted from emi namespace
+pod/mongo-1 condition met
+=== AFTER ===
+Sat Nov 21 22:02:32 PKT 2026
+NAME      READY   STATUS    RESTARTS   AGE
+mongo-1   1/1     Running   0          1s
+NAME           STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+data-mongo-1   Bound    pvc-316bd74f-eda4-4bcf-9c80-56918080ed0b   1Gi        RWO            standard       <unset>                 28h
+documents: 104418
+[
+  'mongo-0.mongo:27017 PRIMARY',
+  'mongo-1.mongo:27017 (not reachable/healthy)',
+  'mongo-2.mongo:27017 SECONDARY'
+]
