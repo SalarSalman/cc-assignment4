@@ -20,3 +20,14 @@ documents: 104418
   'mongo-1.mongo:27017 (not reachable/healthy)',
   'mongo-2.mongo:27017 SECONDARY'
 ]
+=== REPLICA SET 30 s AFTER mongo-1 RESTART ===
+Sat Nov 21 22:10:26 PKT 2026
+NAME      READY   STATUS    RESTARTS      AGE
+mongo-0   1/1     Running   3 (39m ago)   27h
+mongo-1   1/1     Running   0             7m55s
+mongo-2   1/1     Running   3 (39m ago)   28h
+[
+  'mongo-0.mongo:27017 PRIMARY',
+  'mongo-1.mongo:27017 SECONDARY',
+  'mongo-2.mongo:27017 SECONDARY'
+]
