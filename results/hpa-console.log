@@ -1,0 +1,4 @@
+phase 1: 10 req/s for 120s -> avg=20.5 ms 2xx=1200 errors=0
+phase 2: 100 req/s for 300s -> avg=543.6 ms 2xx=21823 errors=6669
+phase 3: 10 req/s for 180s -> avg=28.7 ms 2xx=1800 errors=0
+done
