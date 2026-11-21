@@ -1,0 +1,5 @@
+[r3_rate10] avg=25.2 ms  2xx=600  errors=0
+[r3_rate25] avg=26.9 ms  2xx=1500  errors=0
+[r3_rate50] avg=34.5 ms  2xx=3000  errors=0
+[r3_rate100] avg=177.8 ms  2xx=6000  errors=0
+[r3_rate200] avg=2391.6 ms  2xx=1524  errors=10476

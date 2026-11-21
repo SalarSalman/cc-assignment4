@@ -1,0 +1,200 @@
+/api/emi method=POST contents='{"principal":1539928,"rate":1.09,"months":121}'
+
+/api/emi method=POST contents='{"principal":1448237,"rate":21.28,"months":148}'
+
+/api/emi method=POST contents='{"principal":306096,"rate":17.78,"months":357}'
+
+/api/emi method=POST contents='{"principal":826034,"rate":9.82,"months":55}'
+
+/api/emi method=POST contents='{"principal":4061630,"rate":6.84,"months":48}'
+
+/api/emi method=POST contents='{"principal":3508718,"rate":12.62,"months":215}'
+
+/api/emi method=POST contents='{"principal":4747514,"rate":4.1,"months":269}'
+
+/api/emi method=POST contents='{"principal":3567314,"rate":10.31,"months":170}'
+
+/api/emi method=POST contents='{"principal":632108,"rate":8.56,"months":100}'
+
+/api/emi method=POST contents='{"principal":3302107,"rate":14.65,"months":6}'
+
+/api/emi method=POST contents='{"principal":1049703,"rate":2.8,"months":215}'
+
+/api/emi method=POST contents='{"principal":118357,"rate":11.89,"months":265}'
+
+/api/emi method=POST contents='{"principal":1928041,"rate":4.52,"months":276}'
+
+/api/emi method=POST contents='{"principal":2096242,"rate":22.64,"months":45}'
+
+/api/emi method=POST contents='{"principal":4238870,"rate":23.55,"months":281}'
+
+/api/emi method=POST contents='{"principal":763974,"rate":2.03,"months":72}'
+
+/api/emi method=POST contents='{"principal":4527481,"rate":21.1,"months":52}'
+
+/api/emi method=POST contents='{"principal":891991,"rate":19.88,"months":2}'
+
+/api/emi method=POST contents='{"principal":3113502,"rate":12.09,"months":140}'
+
+/api/emi method=POST contents='{"principal":1785975,"rate":12.47,"months":14}'
+
+/api/emi method=POST contents='{"principal":3330512,"rate":13.0,"months":360}'
+
+/api/emi method=POST contents='{"principal":3993458,"rate":17.22,"months":106}'
+
+/api/emi method=POST contents='{"principal":1836159,"rate":15.15,"months":304}'
+
+/api/emi method=POST contents='{"principal":4890727,"rate":3.6,"months":110}'
+
+/api/emi method=POST contents='{"principal":891093,"rate":22.23,"months":228}'
+
+/api/emi method=POST contents='{"principal":1604491,"rate":24.35,"months":15}'
+
+/api/emi method=POST contents='{"principal":4427955,"rate":3.37,"months":360}'
+
+/api/emi method=POST contents='{"principal":1869267,"rate":13.77,"months":91}'
+
+/api/emi method=POST contents='{"principal":664708,"rate":19.88,"months":26}'
+
+/api/emi method=POST contents='{"principal":4022951,"rate":25.23,"months":16}'
+
+/api/emi method=POST contents='{"principal":1982848,"rate":11.52,"months":252}'
+
+/api/emi method=POST contents='{"principal":749388,"rate":10.97,"months":158}'
+
+/api/emi method=POST contents='{"principal":2371472,"rate":11.39,"months":8}'
+
+/api/emi method=POST contents='{"principal":1458304,"rate":26.94,"months":81}'
+
+/api/emi method=POST contents='{"principal":808002,"rate":21.01,"months":51}'
+
+/api/emi method=POST contents='{"principal":4484834,"rate":1.49,"months":46}'
+
+/api/emi method=POST contents='{"principal":4397658,"rate":2.79,"months":170}'
+
+/api/emi method=POST contents='{"principal":1494308,"rate":25.81,"months":199}'
+
+/api/emi method=POST contents='{"principal":871176,"rate":12.83,"months":123}'
+
+/api/emi method=POST contents='{"principal":2218205,"rate":9.24,"months":114}'
+
+/api/emi method=POST contents='{"principal":3709985,"rate":8.06,"months":45}'
+
+/api/emi method=POST contents='{"principal":3193727,"rate":29.74,"months":297}'
+
+/api/emi method=POST contents='{"principal":3860094,"rate":7.06,"months":253}'
+
+/api/emi method=POST contents='{"principal":1618631,"rate":22.47,"months":1}'
+
+/api/emi method=POST contents='{"principal":1677005,"rate":12.73,"months":146}'
+
+/api/emi method=POST contents='{"principal":4015068,"rate":22.07,"months":10}'
+
+/api/emi method=POST contents='{"principal":3617371,"rate":15.78,"months":78}'
+
+/api/emi method=POST contents='{"principal":1284920,"rate":17.64,"months":282}'
+
+/api/emi method=POST contents='{"principal":1843861,"rate":2.33,"months":243}'
+
+/api/emi method=POST contents='{"principal":4923049,"rate":4.07,"months":253}'
+
+/api/emi method=POST contents='{"principal":541981,"rate":10.06,"months":193}'
+
+/api/emi method=POST contents='{"principal":4924610,"rate":10.48,"months":69}'
+
+/api/emi method=POST contents='{"principal":1828525,"rate":13.46,"months":322}'
+
+/api/emi method=POST contents='{"principal":3500374,"rate":17.02,"months":17}'
+
+/api/emi method=POST contents='{"principal":3761635,"rate":18.88,"months":219}'
+
+/api/emi method=POST contents='{"principal":3868021,"rate":22.71,"months":349}'
+
+/api/emi method=POST contents='{"principal":3368175,"rate":8.04,"months":128}'
+
+/api/emi method=POST contents='{"principal":1938534,"rate":7.38,"months":198}'
+
+/api/emi method=POST contents='{"principal":3091120,"rate":2.42,"months":21}'
+
+/api/emi method=POST contents='{"principal":74625,"rate":28.73,"months":148}'
+
+/api/emi method=POST contents='{"principal":4770781,"rate":25.57,"months":221}'
+
+/api/emi method=POST contents='{"principal":2035419,"rate":2.6,"months":3}'
+
+/api/emi method=POST contents='{"principal":2730267,"rate":11.55,"months":181}'
+
+/api/emi method=POST contents='{"principal":4320842,"rate":29.46,"months":151}'
+
+/api/emi method=POST contents='{"principal":3475400,"rate":25.91,"months":200}'
+
+/api/emi method=POST contents='{"principal":218453,"rate":6.89,"months":58}'
+
+/api/emi method=POST contents='{"principal":3549535,"rate":21.19,"months":198}'
+
+/api/emi method=POST contents='{"principal":3089631,"rate":25.03,"months":134}'
+
+/api/emi method=POST contents='{"principal":935123,"rate":17.81,"months":233}'
+
+/api/emi method=POST contents='{"principal":2333751,"rate":1.68,"months":279}'
+
+/api/emi method=POST contents='{"principal":2491611,"rate":6.04,"months":8}'
+
+/api/emi method=POST contents='{"principal":514039,"rate":21.37,"months":268}'
+
+/api/emi method=POST contents='{"principal":3545880,"rate":14.18,"months":125}'
+
+/api/emi method=POST contents='{"principal":3711668,"rate":8.83,"months":268}'
+
+/api/emi method=POST contents='{"principal":1696848,"rate":11.48,"months":5}'
+
+/api/emi method=POST contents='{"principal":4719677,"rate":19.39,"months":305}'
+
+/api/emi method=POST contents='{"principal":298636,"rate":7.07,"months":184}'
+
+/api/emi method=POST contents='{"principal":3226965,"rate":22.77,"months":341}'
+
+/api/emi method=POST contents='{"principal":3387259,"rate":1.35,"months":209}'
+
+/api/emi method=POST contents='{"principal":3962713,"rate":4.4,"months":46}'
+
+/api/emi method=POST contents='{"principal":1482586,"rate":7.15,"months":85}'
+
+/api/emi method=POST contents='{"principal":2008435,"rate":12.48,"months":242}'
+
+/api/emi method=POST contents='{"principal":3568589,"rate":17.19,"months":17}'
+
+/api/emi method=POST contents='{"principal":1092121,"rate":25.96,"months":163}'
+
+/api/emi method=POST contents='{"principal":29747,"rate":12.99,"months":152}'
+
+/api/emi method=POST contents='{"principal":1147431,"rate":12.59,"months":48}'
+
+/api/emi method=POST contents='{"principal":1521547,"rate":15.28,"months":308}'
+
+/api/emi method=POST contents='{"principal":956117,"rate":17.0,"months":225}'
+
+/api/emi method=POST contents='{"principal":2181744,"rate":22.8,"months":35}'
+
+/api/emi method=POST contents='{"principal":186497,"rate":27.49,"months":77}'
+
+/api/emi method=POST contents='{"principal":2800553,"rate":16.06,"months":248}'
+
+/api/emi method=POST contents='{"principal":2181544,"rate":21.04,"months":137}'
+
+/api/emi method=POST contents='{"principal":2372966,"rate":25.81,"months":185}'
+
+/api/emi method=POST contents='{"principal":4572375,"rate":18.01,"months":203}'
+
+/api/emi method=POST contents='{"principal":202503,"rate":3.69,"months":57}'
+
+/api/emi method=POST contents='{"principal":278336,"rate":1.82,"months":188}'
+
+/api/emi method=POST contents='{"principal":1410599,"rate":13.99,"months":339}'
+
+/api/emi method=POST contents='{"principal":2755517,"rate":20.11,"months":102}'
+
+/api/emi method=POST contents='{"principal":4487839,"rate":3.73,"months":319}'
+
+/api/emi method=POST contents='{"principal":1566094,"rate":9.79,"months":224}'
+

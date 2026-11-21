@@ -1,0 +1,2 @@
+start_time,replicas,target_rate,duration_s,sessions,requests,replies,test_duration_s,avg_response_ms,replies_2xx,replies_5xx,errors_total,client_timo,connreset
+2026-11-21 16:00:04,1,25,45,1125,1125,1125,44.976,18.1,1125,0,0,0,0

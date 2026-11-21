@@ -1,0 +1,15 @@
+[r1_rate10] avg=34.1 ms  2xx=600  errors=0
+[r1_rate25] avg=17.9 ms  2xx=1500  errors=0
+[r1_rate50] avg=39.8 ms  2xx=3000  errors=0
+[r1_rate100] avg=687.7 ms  2xx=815  errors=2677
+[r1_rate200] avg=2535.9 ms  2xx=316  errors=11671
+[r2_rate10] avg=42.9 ms  2xx=600  errors=0
+[r2_rate25] avg=20.4 ms  2xx=1500  errors=0
+[r2_rate50] avg=40.1 ms  2xx=3000  errors=0
+[r2_rate100] avg=1863.8 ms  2xx=4566  errors=1023
+[r2_rate200] avg=2638.8 ms  2xx=529  errors=11470
+[r3_rate10] avg=0.0 ms  2xx=0  errors=600
+[r3_rate25] avg=0.0 ms  2xx=0  errors=1500
+[r3_rate50] avg=0.0 ms  2xx=0  errors=3000
+[r3_rate100] avg=0.0 ms  2xx=0  errors=5999
+[r3_rate200] avg=0.1 ms  2xx=0  errors=11999

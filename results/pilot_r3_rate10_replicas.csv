@@ -1,0 +1,3 @@
+timestamp,epoch,spec_replicas,ready_replicas,hpa_current,hpa_desired,hpa_cpu_percent
+2026-11-21 10:18:51,1795238331,3,3,,,
+2026-11-21 10:19:06,1795238346,3,3,,,
