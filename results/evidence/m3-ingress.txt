@@ -1,0 +1,2 @@
+NAME      CLASS   HOSTS       ADDRESS        PORTS   AGE
+emi-web   nginx   emi.local   192.168.49.2   80      39h
